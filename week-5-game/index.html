@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Art Trivia</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<script src="assets/jQuery/jquery-1.12.1.min.js"></script>
+</head>
+<body>
+		<div id='start'>
+			<h1>Let's Play Trivia!!!</h1>
+				
+			<div class="noQuery" id="button">START</div>	
+		</div>
+		<div id="question">
+			<h1>Question #<span class='number'></span></h1>
+				<p>Who is the artist that painted this?</p>
+				<img class="image" src="assets/images/fillImage1.jpg">
+				<form id="radioQuestions">
+					<div id="1">
+						<span id="a1"></span>
+						<input type="radio" name="answer" value="1">
+					</div>
+					<div id="2">
+						<span id="a2"></span>
+						<input type="radio" name="answer" value="2">
+					</div>
+					<div id="3">
+						<span id="a3"></span>
+						<input type="radio" name="answer" value="3">
+					</div>
+					<div id="4">
+						<span id="a4"></span>
+						<input type="radio" name="answer" value="4">
+					</div>
+					<div id="5">
+						<span id="a5"></span>
+						<input type="radio" name="answer" value="5">
+					</div>
+				</form>
+				<h2>You have <span id='sec'></span> left</h2>
+			</div>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

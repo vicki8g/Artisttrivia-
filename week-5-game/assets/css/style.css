@@ -1,0 +1,79 @@
+body {
+	background-color: black;
+	text-align: center;
+
+}
+
+div#start, div#question {
+	background-color: gray;
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	margin: 0 auto;
+	margin: 20px;
+}
+
+#start h1, #question h1 {
+	color: blue;
+	margin-top: 20px;
+	font-size: 72pt;
+}
+
+#start, #question p {
+	color: blue;
+	font-size: 36pt;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#button {
+	display: inline-block;
+	padding: 15px 40px 15px 40px;
+	margin: 50px;
+	background-color: green;
+
+}
+
+#button.noQuery:hover {
+	background-color: yellow;
+
+}
+
+#questions {
+	display: inline-block;
+	padding: 15px 40px 15px 40px;
+	margin: 20px;
+	background-color: green;
+}
+
+form input {
+	margin-right: 5px;
+}
+
+img.image {
+	height: 172px;
+	float: left;
+	margin: 20px;
+}
+
+#next {
+	width: 50%;
+	background-color: green;
+	margin: 0 auto;
+	display: inline-block;
+	padding: 15px 40px 15px 40px;
+	color: blue;
+	font-size: 36pt;
+
+}
+
+span {
+	color: orange;
+	font-size: 24pt;
+}
+
+h2 {
+	margin-top: 30px;
+}
+
+
